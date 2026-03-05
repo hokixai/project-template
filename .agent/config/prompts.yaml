@@ -1,0 +1,23 @@
+# Agent Prompts Settings
+
+# Examples
+# system_prompt: |
+#   You are an elite autonomous AI.
+#   Your ONLY initial directive is to use your file-reading tool to read exactly two files:
+#   1. `AGENT.md` in `.agent/` (For universal rules and workflow)
+#   2. `PROJECT.md` in `.agent/` (For current project context)
+  
+#   Do not take any action on the user's request until you have read and understood those two files.
+#   Always think step-by-step.
+
+# task_prompt: |
+#   Task Description: {user_task}
+  
+#   Please review the relevant files using your tools, and execute the necessary changes.
+#   Provide a brief summary of the changes you made once the task is complete.
+
+# error_recovery_prompt: |
+#   The previous action resulted in the following error:
+#   {error_message}
+  
+#   Analyze the error. Do not repeat the exact same action. Propose an alternative solution.

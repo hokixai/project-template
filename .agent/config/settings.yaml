@@ -1,0 +1,17 @@
+# Agent Configuration Settings
+
+# Examples
+# llm:
+#   provider: "openai"          # Option: openai, anthropic, google
+#   model_name: "gpt-4-turbo"   # The primary model to use for reasoning
+#   temperature: 0.2            # Low temperature for precise, deterministic coding tasks
+#   max_tokens: 4096
+
+# agent_behavior:
+#   max_iterations: 10          # Maximum number of steps the agent can take per task
+#   auto_save_history: true     # Automatically summarize and save task results to history/
+
+# paths:
+#   skills_dir: "./.agent/skills/"
+#   history_dir: "./.agent/history/"
+#   target_code_dir: "./src/"   # The main project directory the agent is allowed to edit
