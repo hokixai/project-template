@@ -7,7 +7,7 @@
 
 ### Phase 1: Repository Duplication
 1. **Finalize Project Name:** Make a proper `[project_name]` or use the project name provided by the user.
-2. **Clone & Create:** Copy all contents of this template repository.
+2. **Clone & Create:** Copy all contents of this template repository (https://github.com/hokixai/project-template).
 3. **Initialize New Repo:** Create a new remote GitHub private repository named `[project_name]`.
 4. **Push:** Push all copied template files to the newly created GitHub repository.
 
