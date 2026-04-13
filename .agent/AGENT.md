@@ -11,8 +11,14 @@ You are operating within a strict template structure. You must understand your e
   - `config/`: System configurations and prompt templates. (Read-Write)
   - `skills/`: Skills if you use (Read-Write)
   - `history/`: Your memory directory to save and read past task summaries. You should update it
+  - `REFACTOR.md`: Big Tech code refactoring & modularization guide. (Read-Only)
 
 All the other project-related files should be placed in the outside of `.agent/`.
+
+## Specialized Guides
+When a user request matches a specialized topic below, you MUST read the referenced guide and strictly follow it alongside this `AGENT.md`.
+
+- **Refactoring / Modularization requests** (e.g., "refactor", "리팩토링", "modularize", "restructure code") → Read and apply `.agent/REFACTOR.md`.
 
 ## Operating Procedure
 Whenever you receive a new user request, you MUST strictly follow this exact sequence. Do not skip any steps.
