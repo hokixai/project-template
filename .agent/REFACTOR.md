@@ -3,6 +3,8 @@
 ## Overview
 Widely adopted refactoring and modularization principles for large-scale systems. Designed as an **agent skill / engineering guideline**.
 
+If possible, use multi-sub-agents for the following guide:
+
 ---
 
 ## 1. Core Refactoring Principles
